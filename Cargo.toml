@@ -1,0 +1,10 @@
+[package]
+name = "thread-local-pcg"
+version = "0.1.0-dev"
+authors = ["Dabo Ross <daboross@daboross.net>"]
+
+[dependencies]
+rand = "0.3"
+
+[dependencies.pcg]
+git = "https://github.com/codahale/pcg.git"
